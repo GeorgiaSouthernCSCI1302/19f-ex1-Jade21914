@@ -14,10 +14,10 @@ public class FirstClassInGit {
 		
 		System.out.println ("What is your last name?");
 		
-		String last = ("");
-		Scanner scan = new Scanner(last);
 		
-		System.out.println(scan.hasNext());
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("so your last name is" + scan.hasNext());
 	}
 
 }
