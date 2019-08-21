@@ -1,4 +1,5 @@
 package assignment;
+import java.util.*;
 
 public class FirstClassInGit {
 
@@ -10,6 +11,13 @@ public class FirstClassInGit {
 		System.out.println("My name is Jade");
 		//Then commit your changes  
 		
+		
+		System.out.println ("What is your last name?");
+		
+		String last = ("");
+		Scanner scan = new Scanner(last);
+		
+		System.out.println(scan.hasNext());
 	}
 
 }
