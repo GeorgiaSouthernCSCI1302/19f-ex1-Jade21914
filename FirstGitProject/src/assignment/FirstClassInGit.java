@@ -16,8 +16,8 @@ public class FirstClassInGit {
 		
 		
 		Scanner scan = new Scanner(System.in);
-		
-		System.out.println("so your last name is" + scan.hasNext());
+		String last = scan.nextLine();
+		System.out.println("So your last name is " + last);
 	}
 
 }
